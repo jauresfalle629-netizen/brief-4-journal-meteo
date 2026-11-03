@@ -1,6 +1,13 @@
 # Fiche agronomique
 
 > Une page, relue par le coach agronomie, d'après la fiche de station. Vous décrivez dix relevés fictifs ; vous ne qualifiez pas le climat de la région.
+# Les trois Description
+température de l'air est le degré de chaleur ou de fraîcheur de l'air, elle s'exprime en 
+°C
+ pluie est la quantité d'eau tombée sous forme de précipitations, elle s'exprime en
+mm
+  humidité relative de l'air est le Pourcentage de vapeur d'eau dans l'air par rapport à sa capacité maximale elle s'exprime en 
+%
 
 **Commentaire de la série**, avec les résultats de votre programme et les unités :
 

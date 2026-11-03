@@ -4,7 +4,7 @@
 
 ## Contexte
 
-Le journal météorologique de la ferme est un outil destiné aux agriculteurs qui souhaitent enregistrer et consulter les données météorologiques de leur exploitation. Il permet de suivre les températures et les précipitations afin de mieux comprendre les conditions météorologiques rencontrées pendant la période d'observation. Ces informations peuvent aider à la prise de certaines décisions agricoles. Cependant, les relevés enregistrés ne permettent pas de prévoir avec certitude le temps qu'il fera ni de tirer des conclusions définitives sur le climat de la région.
+Le journal météorologique de la ferme est un outil destiné aux agriculteurs qui souhaitent enregistrer et consulter les données météorologiques de leur exploitation. Il permet de suivre les températures et les précipitations afin de mieux comprendre les conditions météorologiques rencontrées pendant la période d'observation. Ces informations peuvent aider à la prise de certaines décisions agricoles. Cependant, les relevés enregistrés ne permettent pas de prévoir avec certitude le temps qu'il fera ni de tirer des conclusions définitives sur le climat de la région.L'humidité relative de l'air n'est pas l'humidité du sol
 
 ## Prérequis et lancement
 
