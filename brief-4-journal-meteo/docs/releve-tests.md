@@ -8,11 +8,11 @@
 
 | Action | Attendu | Obtenu | Testeur |
 | --- | --- | --- | --- |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
-| ✏️ | | | |
+| Afficher tous les relevés météorologiques | Les relevés enregistrés s'affichent, un par ligne. | | |
+| Ajouter un relevé valide |Le programme refuse la saisie et affiche un message d'erreur. | |Moi-même |
+| Ajouter un relevé avec une date invalide | | |Moi-même |
+| Rechercher un identifiant inexistant | Le programme indique qu'aucun relevé correspondant n'a été trouvé. | |Moi-même |
+| Trier les relevés par température et par pluie |Les relevés sont affichés dans l'ordre croissant de la mesure choisie, sans modifier le journal original | |Moi-même |
+| Afficher la synthèse météorologique | Le programme affiche la température moyenne, le cumul des pluies et les températures minimale et maximale. | |Moi-même |
 
 **Sur un autre poste** (`git clone`, `node app.js`, `npm test`, en suivant le README) : ✏️

@@ -4,7 +4,7 @@
 
 ## Contexte
 
-✏️ *En trois à cinq phrases : qui utilise l'outil, quel problème il résout, ce qu'il ne permet pas de conclure.*
+Le journal météorologique de la ferme est un outil destiné aux agriculteurs qui souhaitent enregistrer et consulter les données météorologiques de leur exploitation. Il permet de suivre les températures et les précipitations afin de mieux comprendre les conditions météorologiques rencontrées pendant la période d'observation. Ces informations peuvent aider à la prise de certaines décisions agricoles. Cependant, les relevés enregistrés ne permettent pas de prévoir avec certitude le temps qu'il fera ni de tirer des conclusions définitives sur le climat de la région.
 
 ## Prérequis et lancement
 
@@ -34,7 +34,7 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ## Données
 
-✏️ *Le fichier, le nombre de relevés, les champs (voir [docs/dictionnaire-donnees.md](docs/dictionnaire-donnees.md)), les unités. Rappelez qu'ils sont fictifs.*
+Les données météorologiques sont enregistrées dans le fichier "donnees/releves.json". Chaque relevé contient un identifiant, une date, une température et une quantité de pluie. La température est exprimée en degrés Celsius (°C) et les précipitations en millimètres (mm). Les données utilisées dans ce projet sont fictives et servent uniquement à tester le fonctionnement de l'application.
 
 ## Limites
 
