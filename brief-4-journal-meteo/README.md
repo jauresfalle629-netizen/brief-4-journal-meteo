@@ -23,14 +23,14 @@ Sous PowerShell, si `npm` est bloqué : `npm.cmd test`.
 
 ✏️ *Cochez seulement ce qui marche : `- [x]`.*
 
-- [ ] Données lues et enregistrées dans `donnees/releves.json`
-- [ ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
-- [ ] Lister les relevés, message si le journal est vide
-- [ ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
-- [ ] Trier par température ou par pluie
-- [ ] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
-- [ ] Bonus : supprimer et modifier un relevé (choix 6 et 7)
-- [ ] Bonus : tri par température décroissante, journée la plus chaude
+- [X] Données lues et enregistrées dans `donnees/releves.json`
+- [X ] Ajouter un relevé, saisies invalides refusées sans arrêter le programme
+- [X ] Lister les relevés, message si le journal est vide
+- [X ] Rechercher par identifiant ou par date ; journées pluvieuses (au moins 10 mm)
+- [X] Trier par température ou par pluie
+- [X] Synthèse : température moyenne, minimale et maximale de la série, cumul de pluie, journées pluvieuses
+- [X] Bonus : supprimer et modifier un relevé (choix 6 et 7)
+- [X] Bonus : tri par température décroissante, journée la plus chaude
 
 ## Données
 

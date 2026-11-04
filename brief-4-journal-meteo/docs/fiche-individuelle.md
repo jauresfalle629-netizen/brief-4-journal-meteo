@@ -20,4 +20,4 @@ Solution :
 - Pour git, j'avais oublié le " de fermeture. J'ai fait Ctrl + C puis j'ai re-tapé git commit -m "final: donnees avec humidite" correctement.
 - J'ai aussi corrigé le template string dans app.js ligne 99 : `` Aucun jour >= ${SEUIL_JOUR_PLUVIEUX}mm ``
 
-3. **L'entraide** (qui m'a aidé, qui j'ai aidé, sur quoi) : ✏️
+3. **L'entraide** (j'ai travailler avec mon groupe, qui j'ai aidé, sur quoi) : ✏️
