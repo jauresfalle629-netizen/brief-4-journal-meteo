@@ -82,9 +82,14 @@ export function creerReleve(saisie) {
 // Ajoute la saisie au journal si elle est valide (verifierReleve, puis creerReleve).
 // Renvoie les erreurs : [] si le relevé a été ajouté ; sinon les messages, et rien n'est ajouté.
 export function ajouterReleve(releves, saisie) {
-    const erreurs = verifierReleve(saisie, releves);
-  if (erreurs.length === 0) {
-    releves.push(creerReleve(saisie));
+  const erreurs = verifierReleve(saisie, releves);
+
+  if (erreurs.length > 0) {
+    return { succes: false, erreurs };
   }
-  return erreurs;
+
+  const releve = creerReleve(saisie);
+  releves.push(releve);
+
+  return { succes: true, releve, erreurs: [] };
 }

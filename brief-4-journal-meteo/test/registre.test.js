@@ -72,7 +72,9 @@ test('creerReleve convertit les trois mesures en nombres', () => {
 
 test('ajouterReleve ajoute une saisie valide à la fin du journal', () => {
   const releves = copieDesDonnees();
-  assert.deepEqual(ajouterReleve(releves, SAISIE_VALIDE), []);
+  const resultat = ajouterReleve(releves, SAISIE_VALIDE);
+  assert.deepEqual(resultat.erreurs, []);
+  assert.equal(resultat.succes, true);
   assert.equal(releves.length, 11);
   assert.equal(releves[10].id, 'M11');
   assert.equal(releves[10].temperatureC, 27.5);
