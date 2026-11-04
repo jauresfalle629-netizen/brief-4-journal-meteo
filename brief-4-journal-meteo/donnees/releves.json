@@ -68,5 +68,19 @@
     "temperatureC": 30,
     "pluieMm": 2,
     "humiditeAirPct": 74
+  },
+  {
+    "id": "TEST01",
+    "date": "2026-11-03",
+    "temperatureC": 28,
+    "pluieMm": 15,
+    "humiditeAirPct": 85
+  },
+  {
+    "id": "M11",
+    "date": "2026-11-04",
+    "temperatureC": 30,
+    "pluieMm": 0,
+    "humiditeAirPct": 65
   }
 ]
