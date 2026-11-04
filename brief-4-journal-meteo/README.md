@@ -38,7 +38,9 @@ Les données météorologiques sont enregistrées dans le fichier "donnees/relev
 
 ## Limites
 
-✏️ *Au moins trois. Par exemple : dix jours de relevés forment une courte série, ils ne décrivent pas le climat de la région.*
+- Dix jours de relevés forment une courte série,ils ne decrivent pas le climat de la region.
+- Les données utiliser dans se projet sont fictives et servent uniquement à tester l'application.
+- Les relevés sont saisies a la main, une erreur de saisis peut fausser la moyenne ou le cumul de pluie.
 
 ## Documents
 
@@ -46,4 +48,4 @@ Les données météorologiques sont enregistrées dans le fichier "donnees/relev
 
 ## Auteur
 
-✏️ *Prénom NOM, compte GitHub. Entraide : avec qui, sur quoi.*
+SEREKO JAURES FALLE, compte GitHub: jauresfalle629-netrizen Entraide :J'ai travailler avec mon groupe (Thyedie Akpli; Koné Pagadjoufougou Abdoulaye; Ouedraogo Bourahima; Fakayode Abdul) et mes recherche sur le coding et les explications 
