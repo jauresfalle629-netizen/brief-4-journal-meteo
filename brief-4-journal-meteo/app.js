@@ -42,6 +42,7 @@ async function main() {
         console.log("Nombre de relevés :", releves.length);
         const liste = listerReleves(releves);
         console.log(liste);
+        await demander("\nAppuie sur ENTREE pour revenir au menu...");
       break;
       }
       
@@ -90,7 +91,8 @@ async function main() {
         if (releves.length === 0) { console.log("Aucun relevé."); break; }
         console.log(`Moyenne temp: ${moyenneTemperature(releves).toFixed(1)}°C`);
         console.log(`Cumul pluie: ${cumulPluie(releves)}mm`);
-        console.log(`Min: ${min}°C / Max: ${max}°C`);
+        const mm = temperatureMinMax(releves);
+        console.log(`Min: ${mm.min}°C / Max: ${mm.max}°C`);
         break;
       }
       case "8": {
