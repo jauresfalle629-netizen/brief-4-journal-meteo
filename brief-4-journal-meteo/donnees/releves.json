@@ -82,5 +82,12 @@
     "temperatureC": 30,
     "pluieMm": 0,
     "humiditeAirPct": 65
+  },
+  {
+    "id": "TEST02",
+    "date": "2026-10-16",
+    "temperatureC": 28,
+    "pluieMm": 6,
+    "humiditeAirPct": 65
   }
 ]
