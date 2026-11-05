@@ -48,4 +48,4 @@ Les données météorologiques sont enregistrées dans le fichier "donnees/relev
 
 ## Auteur
 
-SEREKO JAURES FALLE, compte GitHub: jauresfalle629-netrizen Entraide :J'ai travailler avec mon groupe (Thyedie Akpli; Koné Pagadjoufougou Abdoulaye; Ouedraogo Bourahima; Fakayode Abdul) et mes recherche sur le coding et les explications 
+SEREKO JAURES FALLE, compte GitHub: jauresfalle629-netrizen Entraide :J'ai travailler avec mon groupe (Thyedie Akpli; Koné Pagadjoufougou Abdoulaye; Ouedraogo Bourahima; Fakayode Abdul) et mes recherche sur le coding et les explications et Meta IA de watts app ma aider a corriger les erreur lors de la saisie quand sa marchait pas
