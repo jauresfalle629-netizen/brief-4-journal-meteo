@@ -7,6 +7,7 @@ import { chargerJson, enregistrerJson } from './src/stockage.js';
 import { ajouterReleve, formaterReleve, listerReleves, trouverParId } from './src/registre.js';
 import { SEUIL_JOUR_PLUVIEUX, joursPluvieux, trierParPluie, trierParTemperature, trouverParDate } from './src/recherche.js';
 import { cumulPluie, moyenneTemperature, temperatureMinMax } from './src/synthese.js';
+import { modifierReleve, supprimerReleve } from "./src/bonus.js";
 
 const FICHIER_DONNEES = 'donnees/releves.json';
 
@@ -96,7 +97,7 @@ async function main() {
         break;
       }
       case "8": {
-        const pluvieux = joursPluvieux(releves);
+        const pluvieux = joursPluvieux(releves, SEUIL_JOUR_PLUVIEUX);
        if (pluvieux.length === 0) {
        console.log(`Aucun jour >= ${SEUIL_JOUR_PLUVIEUX}mm`);
       } else {
@@ -105,18 +106,21 @@ async function main() {
         break;
       }
       case "9": {
-        const id = await demander("ID à modifier : ");
-        const champ = await demander("Champ (date, temperatureC, pluieMm, humiditeAirPct) : ");
-        const valeur = await demander("Nouvelle valeur : ");
-        const mod = modifierReleve(releves, id, champ, valeur);
-        if (mod) {
-          await enregistrerJson(FICHIER_DONNEES, releves);
-          console.log("Modifié : " + formaterReleve(mod));
+         const id = await demander("ID à modifier : ");
+         const champ = await demander("Champ (date, temperatureC, pluieMm, humiditeAirPct) : ");
+         const valeur = await demander("Nouvelle valeur : ");
+
+        const erreurs = modifierReleve(releves, id, champ, valeur);
+
+        if (erreurs.length > 0) {
+        console.log("Erreur : " + erreurs.join(", "));
         } else {
-          console.log("Modification impossible (ID/champ/valeur invalide).");
+        const releve = releves.find(r => r.id === id);
+          console.log(`Modifié : ${releve.id} | ${releve.date} | ${releve.temperatureC} °C | ${releve.pluieMm} mm | air ${releve.humiditeAirPct} %`);
         }
         break;
       }
+      
       case "10": {
         const id = await demander("ID à supprimer : ");
         const sup = supprimerReleve(releves, id);
